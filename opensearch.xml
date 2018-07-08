@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns:moz="http://www.mozilla.org/2006/browser/search/" xmlns="http://a9.com/-/spec/opensearch/1.1/">
-<ShortName>fleischmann.hu</ShortName>
-<Description>Search fleischmann.hu</Description>
+<ShortName>fleischmannhu</ShortName>
+<Description>Search fleischmannhu</Description>
 <InputEncoding>UTF-8</InputEncoding>
-<Url method="get" type="text/html" template="http://www.google.com/search?q={searchTerms}+site%3Afleischmann.hu&amp;hl=hu"/>
+<Url method="GET" type="text/html" template="http://www.google.com/search?q={searchTerms}+site%3Afleischmann.hu&amp;hl=hu"/>
+<Url method="GET" type="application/x-suggestions+xml" template="http://www.google.com/search?q={searchTerms}+site%3Afleischmann.hu&amp;hl=hu"/>
+<Url method="GET" type="application/x-suggestions+json" template="http://www.google.com/search?q={searchTerms}+site%3Afleischmann.hu&amp;hl=hu"/>
 </OpenSearchDescription>
